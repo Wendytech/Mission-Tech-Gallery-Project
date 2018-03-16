@@ -1,0 +1,26 @@
+
+body {
+  font-family: Arial;
+	background-color: pink;
+}
+h1 {
+  text-align: center;
+  color: Black;
+	font-size: 3em;
+	background-color: lightgrey;
+	border: solid darkgrey;
+}
+.gallery {
+  margin: 10px 50px;
+}
+.gallery img {
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+	transform: scale(1.1);
+}
