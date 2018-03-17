@@ -1,0 +1,17 @@
+.lightbox {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: lightgrey;
+  diplay: none;
+}
+.lightbox-container {
+  position: relative;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  top: 15px;
+  background-color: white;
+}
