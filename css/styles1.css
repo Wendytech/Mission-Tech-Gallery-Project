@@ -1,24 +1,52 @@
 
-body {
-	font-family: Arial;
+body
+{
+ font-family: Arial;
+ background-color: #FFFACD;
 }
+
 h1 {
-	color: black;
+  text-align: center;
+  color: Black;
+	font-size: 3em;
 	background-color: lightgrey;
-	text-align: center;
-	font-family: Arial;
-	font-size: 5em;
+  border: solid darkgrey;
 }
-.gallery {
-	margin: 30px 50px;
+#article {
+  margin: 0 auto;
+  width: 960px;
 }
-.gallery img{
+#article p {
+  margin: 10px;
+	float: left;
+  border: 1px solid green;
+}
+#gallery {
+	margin: auto;
+}
+#gallery img {
 	width: 230px;
 	padding: 4px;
 	filter: grayscale(100%);
 	transition: 1s;
 }
-.gallery img:hover {
+#gallery img:hover {
 	filter: grayscale(0);
 	transform: scale(1.1);
+}
+
+#lightbox {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  margin: 5% auto;
+	display: none;
+	background-color: lightgrey;
+}
+
+#lightbox img {
+	height: 80%;
+	width: 50%;
+  margin: 25px;
+
 }

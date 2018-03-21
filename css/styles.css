@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+}
+
+#article {
+  margin: 0 auto;
+  width: 960px;
+  border: 1px solid red;
+}
+
+#article p {
+  margin: 10px;
+  float: left;
+  border: 1px solid green;
+}
+
+#lightbox {
+  display: none;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  margin: 5% auto;
+}
+
+#lightbox img {
+  margin: 200px auto;
+}
