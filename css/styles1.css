@@ -3,23 +3,28 @@ body
 {
  font-family: Arial;
  background-color: #FFFACD;
+ background-image: url('../images/vintagecamera1.png');
+ background-size: cover;
 }
 
 h1 {
-  text-align: center;
-  color: Black;
-	font-size: 3em;
+    text-align: center;
+    color: tan;
+	font-size: 100px;
+	font-family: 'Allura', sans-serif;
 	background-color: lightgrey;
-  border: solid darkgrey;
+	background-size: cover;
+    border: solid darkgrey;
 }
+
 #article {
   margin: 0 auto;
   width: 960px;
 }
 #article p {
   margin: 10px;
-	float: left;
-  border: 1px solid green;
+	float: right;
+    border: 1px solid green;
 }
 #gallery {
 	margin: auto;
@@ -50,3 +55,9 @@ h1 {
   margin: 25px;
 
 }
+#footer{
+    font-size: smaller;
+    position: fixed;
+    bottom: -5px;
+}
+
